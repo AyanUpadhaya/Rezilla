@@ -4,16 +4,16 @@ import HomeCarousel from '../carousels/HomeCarousel'
 const Hero = () => {
     return (
         <div className='w-full pb-[60px]'>
-            <div className='container mx-auto px-[60px] pt-[89px] '>
-                <div className="flex flex-col gap-3 lg:gap-0 lg:flex-row justify-between items-stretch">
+            <div className='container mx-auto px-[30px] lg:px-[60px] pt-[89px] '>
+                <div className="flex flex-col gap-10 lg:gap-0 lg:flex-row justify-between items-stretch">
                     <div className='w-full max-w-xl flex-shrink-0'>
-                        <h4 className='text-primary  text-[19px] font-semilessbold mb-[30px]'>REAL ESTATE</h4>
-                        <h2 className='mb-10 font-semibold text-[57px] text-[#0B090A] leading-[65px]'>Find a perfect home you love..!</h2>
-                        <p className='text-base font-normal text-[#808080] leading-[26px] mb-8'>
+                        <h4 className='text-primary  text-base lg:text-[19px] font-semilessbold mb-[30px]'>REAL ESTATE</h4>
+                        <h2 className='mb-[30px] lg:mb-10 font-semibold text-[39.8px] lg:text-[57px] text-[#0B090A] leading-[65px]'>Find a perfect home you love..!</h2>
+                        <p className='text-[13.3px] lg:text-base font-normal text-[#808080] leading-[26px] mb-[30px]'>
                             Etiam eget elementum elit. Aenean dignissim dapibus vestibulum. Integer a dolor eu sapien sodales vulputate ac in purus.
                         </p>
                         <div className='w-full flex justify-end items-center'>
-                            <span>
+                            <span className=' mr-8'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="61" height="61" viewBox="0 0 61 61" fill="none">
   <circle cx="30.1698" cy="30.1699" r="30" transform="rotate(30 30.1698 30.1699)" fill="url(#paint0_linear_29_153)"/>
   <defs>

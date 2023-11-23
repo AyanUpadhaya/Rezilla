@@ -42,7 +42,7 @@ const HomeCarousel = () => {
                 <div className=" w-full">
 
                     <button
-                        className="absolute top-[50%] -left-12 -translate-y-[50%] rounded-full flex justify-center items-center"
+                        className="absolute top-[50%] -left-5 lg:-left-12 -translate-y-[50%] rounded-full flex justify-center items-center"
                         onClick={prevSlide}
                     >
                         <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none">
@@ -65,7 +65,7 @@ const HomeCarousel = () => {
                         </svg>
                     </button>
                     <button
-                        className="absolute top-[50%] -right-12 -translate-y-[50%] text-white flex justify-center items-center"
+                        className="absolute top-[50%] -right-5 lg:-right-12 -translate-y-[50%] text-white flex justify-center items-center"
                         onClick={nextSlide}
                     >
                         <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none">

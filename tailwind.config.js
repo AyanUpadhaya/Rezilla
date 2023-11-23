@@ -21,6 +21,9 @@ export default {
       },
       borderRadius:{
         '6xl':'50px'
+      },
+      boxShadow:{
+        'badgeshadow':'10px 30px 50px 0px rgba(0, 0, 0, 0.05)'
       }
     },
   },

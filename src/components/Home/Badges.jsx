@@ -3,8 +3,8 @@ import { elipse, group } from '../../assets/getAssets'
 
 const Badges = () => {
   return (
-    <div className='w-full flex justify-center items-center gap-8 relative -mt-16'>
-        <div className='max-w-[320px] max-h-[100px] bg-white shadow-md flex items-center gap-10 py-7 px-9 rounded-6xl'>
+    <div className='w-full flex flex-col lg:flex-row justify-center items-center gap-8 relative -mt-16'>
+        <div className='max-w-[320px] max-h-[100px] bg-white shadow-badgeshadow flex items-center gap-10 py-7 px-9 rounded-6xl'>
             <span>
                 <img src={group} alt="group" />
             </span>
@@ -13,7 +13,7 @@ const Badges = () => {
 Customer
             </span>
         </div>
-        <div className='max-w-[320px] max-h-[100px] bg-white shadow-md flex items-center gap-10 py-7 px-9 rounded-6xl'>
+        <div className='max-w-[320px] max-h-[100px] bg-white shadow-badgeshadow flex items-center gap-10 py-7 px-9 rounded-6xl'>
             <span>
                 <img src={elipse} alt="group" />
             </span>

@@ -32,7 +32,7 @@ const Sponsors = () => {
                     </div>))}
             </Marquee>
         </div>
-        <span className='absolute top-0 left-0'>
+        <span className='hidden lg:absolute top-0 left-0'>
         <svg xmlns="http://www.w3.org/2000/svg" width="101" height="101" viewBox="0 0 101 101" fill="none">
   <circle opacity="0.5" cx="50.3013" cy="50.3013" r="50" transform="rotate(-30 50.3013 50.3013)" fill="url(#paint0_linear_70_162)"/>
   <defs>

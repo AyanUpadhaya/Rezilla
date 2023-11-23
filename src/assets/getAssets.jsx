@@ -11,6 +11,10 @@ import amazon from "./images/amazon.png";
 import spotify from "./images/spotify.png";
 import samsung from "./images/samsung.png";
 import logitech from "./images/logitech.png";
+import rectangleOne from "./images/rectangleOne.jpg";
+import rectangleTwo from "./images/rectangleTwo.jpg";
+import rectangleThree from "./images/rectangleThree.jpg";
+import rectangleCard from "./images/rectangleCard.png"
 export{
     background,
     imageOne,
@@ -24,5 +28,9 @@ export{
     amazon,
     spotify,
     samsung,
-    logitech
+    logitech,
+    rectangleOne,
+    rectangleTwo,
+    rectangleThree,
+    rectangleCard
 }
