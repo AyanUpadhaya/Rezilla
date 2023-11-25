@@ -14,7 +14,9 @@ import logitech from "./images/logitech.png";
 import rectangleOne from "./images/rectangleOne.jpg";
 import rectangleTwo from "./images/rectangleTwo.jpg";
 import rectangleThree from "./images/rectangleThree.jpg";
-import rectangleCard from "./images/rectangleCard.png"
+import rectangleCard from "./images/rectangleCard.png";
+import highbuilding from "./images/highbuilding.png";
+import waterpool from "./images/waterpool.png";
 export{
     background,
     imageOne,
@@ -32,5 +34,7 @@ export{
     rectangleOne,
     rectangleTwo,
     rectangleThree,
-    rectangleCard
+    rectangleCard,
+    highbuilding,
+    waterpool
 }

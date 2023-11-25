@@ -99,8 +99,8 @@ const WhoAreWe = () => {
                                     </span>
                                 </div>
                                 <div>
-                                    <h4 className='font-semilessbold text-[19px] text-primary mb-5'>Donec porttitor euismod</h4>
-                                    <p className='text-base font-normal text-[#808080] max-w-[274px]'>
+                                    <h4 className='font-semilessbold text-base lg:text-[19px] text-primary mb-5'>Donec porttitor euismod</h4>
+                                    <p className='text-[13px] lg:text-base font-normal text-[#808080] max-w-[274px]'>
                                         Nullam a lacinia ipsum, nec dignissim purus. Nulla
                                     </p>
                                 </div>

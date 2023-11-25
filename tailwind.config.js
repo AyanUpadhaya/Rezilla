@@ -15,6 +15,13 @@ export default {
         primary:"#3A0CA3",
         textdark:"#2B2B2B",
         darkgray:"#808080",
+        labelOne:'#FFE1E1',
+        labelTwo:'#D7EEFF',
+        labelThree:'#F1FFF1',
+        textRed:'#f11',
+        textSkyblue:'#119BFF',
+        textGreen:'#00CE3A'
+
       },
       fontWeight:{
         'semilessbold':'500'
