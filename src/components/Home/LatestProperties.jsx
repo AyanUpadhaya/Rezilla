@@ -178,15 +178,15 @@ const LatestProperties = () => {
                     simulateTouch={true}
                    
                 >
-                     {data.map((card,i)=>(<SwiperSlide key={i}>
-                       <div  className="card w-96 bg-base-100 ">
-                            <div className='relative'>
+                     {data.map((card,i)=>(<SwiperSlide key={i} >
+                       <div  className="card w-96 bg-base-100 relative ">
+                            <div className='relative '>
                                 <img src={card?.cardImg} alt="Shoes" className='w-full' />
                                 {/* tag */}
                                 <Tag bgcolor={card?.tagbgColor} svg={card?.svg} textColor={card?.tagtextColor} status={card?.status}></Tag>
                             </div>
                             <div className="card-body  px-0">
-                                <h2 className="card-title font-semibold text-[#2B2B2B] text-[27px]">$ {card?.price}</h2>
+                                <h2 className="card-title font-semibold text-[#2B2B2B] text-[27px] swiper-no-swiping">$ {card?.price}</h2>
                                 <p className='font-semilessbold text-[#2B2B2B] text-[19px]'>{card?.title}</p>
                                 <p className='font-normal text-[#808080] text-base'>{card?.address}</p>
                                 <div className="card-actions justify-start space-x-5">
