@@ -6,13 +6,13 @@ const WhoAreWe = () => {
   return (
     <div className='w-full pb-[60px]'>
             <div className='container mx-auto px-[30px] lg:px-[60px] pt-[89px] '>
-                <div className="flex flex-col gap-5 lg:gap-[43px] lg:flex-row justify-between items-stretch ">
-                    <div className='w-full max-w-xl flex-shrink-0'>
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-[43px] items-center ">
+                    <div className='flex-1'>
                         <h4 className='text-primary  text-base lg:text-[19px] font-semilessbold mb-[30px]'>WHO ARE WE</h4>
-                        <h2 className='mb-[30px] lg:mb-10 font-semibold text-[27px] lg:text-[39px] text-[#0B090A] leading-[65px]'>
+                        <h2 className='max-w-xl mb-[30px] lg:mb-10 font-semibold text-[27px] lg:text-[39px] text-[#0B090A] leading-[65px]'>
                         Assisting individuals in locating the appropriate real estate.
                         </h2>
-                        <p className='text-[13.3px] lg:text-base font-normal text-[#808080] leading-[26px] mb-[20px] lg:mb-10'>
+                        <p className='max-w-md text-[13.3px] lg:text-base font-normal text-[#808080] leading-[26px] mb-[20px] lg:mb-10'>
                             Etiam eget elementum elit. Aenean dignissim dapibus vestibulum. Integer a dolor eu sapien sodales vulputate ac in purus.
                         </p>
                       
@@ -55,19 +55,18 @@ const WhoAreWe = () => {
                         </div>
                     </div>
 
-                    <div className='flex-1 flex gap-5 items-start lg:items-center '>
-                        <div className='w-[10rem] lg:w-[18rem] h-[16rem] lg:h-[500px] flex-shrink-0 rounded-[30px] relative lg:mt-48'>
-                            <img src={ rectangleOne} alt="" className='w-full h-full rounded-[30px]' />
+                    <div className='h-full  flex-1 flex justify-end gap-5 pt-10 '>
+                        <div className='w-[10rem] lg:w-1/2 h-[16rem] lg:h-[calc(100%-40px)] flex-shrink-0 rounded-[30px] relative mt-10 '>
+                            <img src={ rectangleOne} alt="" className='w-full h-full object-cover rounded-[30px]' />
                         </div>
                         <div className='flex-shrink-0 flex-1 space-y-5'>
-                            <div className='w-[8rem] lg:w-[17rem] h-[8rem] lg:h-[280px] rounded-[30px]'>
-                                <img src={ rectangleTwo} alt="" className='w-full h-full rounded-[30px]' />
+                            <div className='w-full h-[8rem] lg:h-[280px] rounded-[30px]'>
+                                <img src={ rectangleTwo} alt="" className='w-full h-full object-cover rounded-[30px]' />
                             </div>
-                            <div className='w-[8rem] lg:w-[17rem] h-[6.5rem] lg:h-[180px] rounded-[30px]'>
-                                <img src={rectangleThree} alt="" className='w-full h-full rounded-[30px]' />
+                            <div className='w-full h-[6.5rem] lg:h-[180px] rounded-[30px]'>
+                                <img src={rectangleThree} alt="" className='w-full h-full object-cover rounded-[30px]' />
                             </div>
                         </div>
-                       
                     </div>
                     <div className='md:hidden flex flex-col gap-[30px]'>
                             <div className='max-w-[400px] p-[30px] lg:py-[30px] lg:px-8 rounded-[30px] shadow-badgeshadow flex items-center gap-[25px]'>

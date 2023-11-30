@@ -17,6 +17,18 @@ import rectangleThree from "./images/rectangleThree.jpg";
 import rectangleCard from "./images/rectangleCard.png";
 import highbuilding from "./images/highbuilding.png";
 import waterpool from "./images/waterpool.png";
+import propertyOne from "./images/propertyOne.jpg";
+import propertyTwo from "./images/propertyTwo.jpg";
+import propertyThree from "./images/propertyThree.jpg";
+import propertyFour from "./images/propertyFour.jpg";
+import propertyFive from "./images/propertyFive.jpg";
+import teamOne from "./images/teamOne.png";
+import teamTwo from "./images/teamTwo.png";
+import teamThree from "./images/teamThree.png";
+import teamFour from "./images/teamFour.png";
+import blogOne from "./images/blogOne.png";
+import blogTwo from "./images/blogTwo.png";
+import blogThree from "./images/blogThree.png";
 export{
     background,
     imageOne,
@@ -36,5 +48,17 @@ export{
     rectangleThree,
     rectangleCard,
     highbuilding,
-    waterpool
+    waterpool,
+    propertyOne,
+    propertyTwo,
+    propertyThree,
+    propertyFour,
+    propertyFive,
+    teamOne,
+    teamTwo,
+    teamThree,
+    teamFour,
+    blogOne,
+    blogTwo,
+    blogThree
 }

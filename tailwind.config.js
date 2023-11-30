@@ -20,17 +20,23 @@ export default {
         labelThree:'#F1FFF1',
         textRed:'#f11',
         textSkyblue:'#119BFF',
-        textGreen:'#00CE3A'
-
+        textGreen:'#00CE3A',
+        sectionTitle:"#0B090A",
+        
       },
       fontWeight:{
         'semilessbold':'500'
+      },
+      fontSize:{
+        'textNinetine':'19.4px'
       },
       borderRadius:{
         '6xl':'50px'
       },
       boxShadow:{
-        'badgeshadow':'10px 30px 50px 0px rgba(0, 0, 0, 0.05)'
+        'badgeshadow':'10px 30px 50px 0px rgba(0, 0, 0, 0.05)',
+        'cardShadow':'4px 10px 30px 0px rgba(0, 0, 0, 0.03)',
+        'propertyShadow':'4px 10px 30px 0px rgba(0, 0, 0, 0.06);'
       }
     },
   },
