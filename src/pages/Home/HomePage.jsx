@@ -8,6 +8,8 @@ import OurServices from '../../components/Home/OurServices'
 import NeighborHoodProperties from '../../components/Home/NeighborHoodProperties'
 import OurTeam from '../../components/Home/OurTeam'
 import LatestBlog from '../../components/Home/LatestBlog'
+import Testimonials from '../../components/Home/Testimonials'
+import RegisterNow from '../../components/Home/RegisterNow'
 
 const HomePage = () => {
   return (
@@ -21,6 +23,8 @@ const HomePage = () => {
       <NeighborHoodProperties></NeighborHoodProperties>
       <OurTeam></OurTeam>
       <LatestBlog></LatestBlog>
+      <Testimonials></Testimonials>
+      <RegisterNow></RegisterNow>
     </div>
   )
 }

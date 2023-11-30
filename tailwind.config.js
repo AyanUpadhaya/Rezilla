@@ -36,7 +36,11 @@ export default {
       boxShadow:{
         'badgeshadow':'10px 30px 50px 0px rgba(0, 0, 0, 0.05)',
         'cardShadow':'4px 10px 30px 0px rgba(0, 0, 0, 0.03)',
-        'propertyShadow':'4px 10px 30px 0px rgba(0, 0, 0, 0.06);'
+        'propertyShadow':'4px 10px 30px 0px rgba(0, 0, 0, 0.06)',
+        "carouselShadow":"10px 10px 30px 0px rgba(0, 0, 0, 0.10)"
+      },
+      dropShadow:{
+        'iconShadowDrop':'drop-shadow(4px 10px 30px rgba(67, 97, 238, 0.40))'
       }
     },
   },

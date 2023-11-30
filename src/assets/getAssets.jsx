@@ -29,6 +29,11 @@ import teamFour from "./images/teamFour.png";
 import blogOne from "./images/blogOne.png";
 import blogTwo from "./images/blogTwo.png";
 import blogThree from "./images/blogThree.png";
+import women from "./images/women.png";
+import person from "./images/person.jpg";
+import matt from "./images/matt.jpg";
+import agent from "./images/agent.png";
+
 export{
     background,
     imageOne,
@@ -60,5 +65,10 @@ export{
     teamFour,
     blogOne,
     blogTwo,
-    blogThree
+    blogThree,
+    women,
+    person,
+    matt,
+    agent,
+
 }
