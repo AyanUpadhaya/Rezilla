@@ -18,7 +18,7 @@ const HomePage = () => {
     <div>
       <Header></Header>
       <Badges></Badges>
-      <Sponsors></Sponsors>
+      {/* <Sponsors></Sponsors> */}
       <WhoAreWe></WhoAreWe>
       <LatestProperties></LatestProperties>
       <OurServices></OurServices>
@@ -28,7 +28,7 @@ const HomePage = () => {
       <Testimonials></Testimonials>
       <RegisterNow></RegisterNow>
       {/* <Footer></Footer> */}
-      <ScrollToTopButton></ScrollToTopButton>
+      {/* <ScrollToTopButton></ScrollToTopButton> */}
     </div>
   )
 }
