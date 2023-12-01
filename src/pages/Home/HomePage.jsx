@@ -27,7 +27,7 @@ const HomePage = () => {
       <LatestBlog></LatestBlog>
       <Testimonials></Testimonials>
       <RegisterNow></RegisterNow>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
       <ScrollToTopButton></ScrollToTopButton>
     </div>
   )
