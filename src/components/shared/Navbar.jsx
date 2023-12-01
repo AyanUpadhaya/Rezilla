@@ -1,6 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
+import MobileNavigation from '../common/MobileNavigation';
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleNavigation = () => {
+    setIsOpen(!isOpen);
+  };
+
+  
+
   return (
     <>
     <div className='hidden lg:block w-full bg-primary py-4'>
@@ -39,7 +48,7 @@ const Navbar = () => {
         </div>
     </div>
     <div className='w-full bg-white px-[30px] lg:px-0'>
-        <div className="-black container mx-auto flex justify-between items-center px-[30px] py-[32px] lg:py-5 md:px-0">
+        <div className="-black container mx-auto flex justify-between items-center py-[32px] lg:py-5 md:px-0">
             <ul className=' hidden lg:flex gap-8 items-center  '>
                 <li>Home</li>
                 <li>About</li>
@@ -71,7 +80,7 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <div className='hidden  lg:flex gap-5 items-center justify-end'>
+            <div className='hidden  lg:flex gap-5 items-center justify-end relative'>
                 {/* login */}
                 <div className='flex gap-2 items-center'>
                     <span>
@@ -105,7 +114,7 @@ const Navbar = () => {
                     </span>
                 </div>
             </div>
-            <div className='lg:hidden'>
+            <div className='lg:hidden' onClick={toggleNavigation}>
   
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="22" viewBox="0 0 24 22" fill="none">
   <path d="M24 0H0V2.18182H24V0Z" fill="#0B090A"/>
@@ -114,8 +123,10 @@ const Navbar = () => {
 </svg>
 
             </div>
+            <MobileNavigation isOpen={isOpen} toggleNavigation={toggleNavigation}></MobileNavigation>
         </div>
     </div>
+    
     </>
   )
 }

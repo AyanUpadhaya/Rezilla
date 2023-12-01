@@ -11,6 +11,7 @@ import LatestBlog from '../../components/Home/LatestBlog'
 import Testimonials from '../../components/Home/Testimonials'
 import RegisterNow from '../../components/Home/RegisterNow'
 import Footer from '../../components/shared/Footer'
+import ScrollToTopButton from '../../components/common/ScrollToTopButton'
 
 const HomePage = () => {
   return (
@@ -27,6 +28,7 @@ const HomePage = () => {
       <Testimonials></Testimonials>
       <RegisterNow></RegisterNow>
       <Footer></Footer>
+      <ScrollToTopButton></ScrollToTopButton>
     </div>
   )
 }
