@@ -55,15 +55,15 @@ const WhoAreWe = () => {
                         </div>
                     </div>
 
-                    <div className='h-full  flex-1 flex justify-end gap-5 pt-10 '>
+                    <div className='h-full  flex justify-start lg:justify-end gap-5 pt-10  '>
                         <div className='w-[10rem] lg:w-1/2 h-[16rem] lg:h-[calc(100%-40px)] flex-shrink-0 rounded-[30px] relative mt-10 '>
                             <img src={ rectangleOne} alt="" className='w-full h-full object-cover rounded-[30px]' />
                         </div>
-                        <div className='flex-shrink-0 flex-1 space-y-5'>
-                            <div className='w-full h-[8rem] lg:h-[280px] rounded-[30px]'>
+                        <div className='flex-shrink-0  space-y-5 '>
+                            <div className='h-[8rem] lg:h-[280px] rounded-[30px]'>
                                 <img src={ rectangleTwo} alt="" className='w-full h-full object-cover rounded-[30px]' />
                             </div>
-                            <div className='w-full h-[6.5rem] lg:h-[180px] rounded-[30px]'>
+                            <div className='h-[6.5rem] lg:h-[180px] rounded-[30px]'>
                                 <img src={rectangleThree} alt="" className='w-full h-full object-cover rounded-[30px]' />
                             </div>
                         </div>

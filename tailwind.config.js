@@ -8,6 +8,14 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        'xs': '480px',    // Custom extra-small size
+        'sm': '576px',    // Bootstrap small
+        'md': '768px',    // Bootstrap medium
+        'lg': '992px',    // Bootstrap large
+        'xl': '1200px',   // Bootstrap extra-large
+        '2xl': '1600px',  // Custom extra-large size
+      },
       grayscale: {
         50: '50%',
       },

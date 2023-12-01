@@ -10,6 +10,7 @@ import OurTeam from '../../components/Home/OurTeam'
 import LatestBlog from '../../components/Home/LatestBlog'
 import Testimonials from '../../components/Home/Testimonials'
 import RegisterNow from '../../components/Home/RegisterNow'
+import Footer from '../../components/shared/Footer'
 
 const HomePage = () => {
   return (
@@ -25,6 +26,7 @@ const HomePage = () => {
       <LatestBlog></LatestBlog>
       <Testimonials></Testimonials>
       <RegisterNow></RegisterNow>
+      <Footer></Footer>
     </div>
   )
 }

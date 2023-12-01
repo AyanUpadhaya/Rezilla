@@ -6,7 +6,7 @@ import Badges from './Badges'
 
 const Header = () => {
   return (
-    <div className=' w-full bg-no-repeat bg-cover bg-center pb-20' style={{backgroundImage:`url(${background})`}}>
+    <div className='w-full bg-no-repeat bg-cover bg-center pb-[20vh]' style={{backgroundImage:`url(${background})`}}>
         <Navbar></Navbar>
         <Hero></Hero>
         

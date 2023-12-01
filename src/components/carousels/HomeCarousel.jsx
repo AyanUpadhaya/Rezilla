@@ -34,7 +34,7 @@ const HomeCarousel = () => {
 
     return (
         <div>
-            <div className="relative w-full max-w-[540px] h-[340px] rounded-3xl mb-[11px] -mt-9">
+            <div className="relative w-full lg:max-w-[540px] h-[340px] rounded-3xl mb-[11px] -mt-9">
                 <div
                     className={`rounded-3xl absoute top-0 left-0 w-full h-full bg-no-repeat bg-cover bg-center duration-500`}
                     style={{ backgroundImage: `url(${carouselItems[currentSlide].image})` }}>

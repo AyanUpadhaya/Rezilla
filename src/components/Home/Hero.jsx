@@ -6,7 +6,7 @@ const Hero = () => {
         <div className='w-full  pb-[60px]'>
             <div className='container mx-auto px-[30px] lg:px-[60px] pt-[89px]  '>
                 <div className="flex flex-col gap-10 lg:gap-0 lg:flex-row justify-between items-stretch">
-                    <div className='w-full max-w-xl flex-shrink-0'>
+                    <div className='w-full lg:max-w-xl flex-shrink-0'>
                         <h4 className='text-primary  text-base lg:text-[19px] font-semilessbold mb-[30px]'>REAL ESTATE</h4>
                         <h2 className='mb-[30px] lg:mb-10 font-semibold text-[39.8px] lg:text-[57px] text-[#0B090A] leading-[65px]'>Find a perfect home you love..!</h2>
                         <p className='text-[13.3px] lg:text-base font-normal text-[#808080] leading-[26px] mb-[30px]'>
@@ -28,7 +28,7 @@ const Hero = () => {
                         <HomeCarousel></HomeCarousel>
                     </div>
 
-                    <div className='bg-white h-full flex-shrink-0 w-full max-w-lg rounded-3xl shadow-lg'>
+                    <div className='bg-white h-full flex-shrink-0 w-full lg:max-w-lg rounded-3xl shadow-lg'>
                         {/* top */}
                         <div className='grid grid-cols-2  pt-10 px-10 rounded-t-3xl border-b border-[#AAA]'>
                             <div className='text-center'>
