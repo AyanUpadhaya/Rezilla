@@ -131,7 +131,7 @@ const LatestProperties = () => {
                     </div>
 
                     {/* tabs */}
-                    <div className='flex gap-5 items-start'>
+                    <div className='flex gap-2 lg:gap-5 items-start'>
                         <div className='py-[19px] px-[30px] flex justify-center items-center text-primary border border-primary font-semilessbold rounded-[30px]'>All</div>
                         <div className='py-[19px] px-[30px] flex justify-center items-center text-white font-semilessbold rounded-[30px] bg-primary'>Sell</div>
                         <div className='py-[19px] px-[30px] flex justify-center items-center text-primary border border-primary font-semilessbold rounded-[30px]'>Rent</div>
