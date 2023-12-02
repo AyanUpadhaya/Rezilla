@@ -47,7 +47,7 @@ const Navbar = () => {
             </div>
         </div>
     </div>
-    <div className='w-full bg-white px-[30px] lg:px-0'>
+    <div className='w-full bg-white px-[19px] lg:px-0'>
         <div className="-black container mx-auto flex justify-between items-center py-[32px] lg:py-5 md:px-0">
             <ul className=' hidden lg:flex gap-8 items-center  '>
                 <li>Home</li>
