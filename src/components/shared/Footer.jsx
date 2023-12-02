@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
         <div className='w-full  bg-[#D4D4D4]'>
-        <div className=" py-[100px] px-[30px] container mx-auto flex flex-col lg:flex-row justify-center lg:justify-between items-center lg:items-start">
+        <div className=" py-[100px] px-[19px] container mx-auto flex flex-col lg:flex-row justify-center lg:justify-between items-center lg:items-start">
 
             <div className='flex flex-col justify-center lg:justify-between items-center lg:items-start'>
                 <div className=' flex gap-2 items-center mb-8'>
@@ -110,7 +110,7 @@ const Footer = () => {
 
         </div>
         </div>
-        <div className='w-full bg-black py-5 px-[30px]'>
+        <div className='w-full bg-black py-5 px-[19px]'>
             <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between">
                 <div className='text-[#AAAAAA]'>
                     <div className='text-cemter lg:text-start'>

@@ -25,11 +25,10 @@ const HomePage = () => {
       <NeighborHoodProperties></NeighborHoodProperties>
       <OurTeam></OurTeam>
       <LatestBlog></LatestBlog>
-      {/* 
       <Testimonials></Testimonials>
-      <RegisterNow></RegisterNow> */}
-      {/* <Footer></Footer> */}
-      {/* <ScrollToTopButton></ScrollToTopButton> */}
+      <RegisterNow></RegisterNow>
+      <Footer></Footer> 
+      <ScrollToTopButton></ScrollToTopButton>
     </div>
   )
 }
