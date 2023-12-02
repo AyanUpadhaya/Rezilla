@@ -9,7 +9,7 @@ const WhoAreWe = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-[43px] items-center ">
                     <div className='flex-1'>
                         <h4 className='text-primary  text-base lg:text-[19px] font-semilessbold mb-[30px]'>WHO ARE WE</h4>
-                        <h2 className='max-w-xl mb-[30px] lg:mb-10 font-semibold text-[27px] lg:text-[39px] text-[#0B090A] leading-[65px]'>
+                        <h2 className='lg:max-w-xl mb-[30px] lg:mb-10 font-semibold text-[27px] lg:text-[39px] text-[#0B090A] leading-[65px]'>
                         Assisting individuals in locating the appropriate real estate.
                         </h2>
                         <p className='max-w-md text-[13.3px] lg:text-base font-normal text-[#808080] leading-[26px] mb-[20px] lg:mb-10'>

@@ -10,7 +10,7 @@ const OurServices = () => {
         </div>
         <div className='mt-[70px]'>
           <div className='w-full grid grid-cols-1 lg:grid-cols-3 gap-[50px]'>
-            <div className='bg-white p-[40px] lg:p-[60px] flex flex-col justify-center items-center gap-[30px] rounded-[30px] shadow-cardShadow'>
+            <div className='bg-white p-[30px] lg:p-[60px] flex flex-col justify-center items-center gap-[30px] rounded-[30px] shadow-cardShadow'>
               {/* icon */}
               <div className='w-[90px] h-[90px] rounded-full bg-primary flex justify-center items-center drop-shadow-2xl'>
                 <span >
@@ -29,7 +29,7 @@ const OurServices = () => {
               </div>
             </div>
 
-            <div className='bg-white p-[60px] flex flex-col justify-center items-center gap-[30px] rounded-[30px] shadow-cardShadow'>
+            <div className='bg-white p-[30px] lg:p-[60px] flex flex-col justify-center items-center gap-[30px] rounded-[30px] shadow-cardShadow'>
               {/* icon */}
               <div className='w-[90px] h-[90px] rounded-full bg-primary flex justify-center items-center drop-shadow-2xl'>
                 <span>
@@ -51,7 +51,7 @@ const OurServices = () => {
 
             {/* last */}
 
-            <div className='bg-white p-[60px] flex flex-col justify-center items-center gap-[30px] rounded-[30px] shadow-cardShadow'>
+            <div className='bg-white p-[30px] lg:p-[60px] flex flex-col justify-center items-center gap-[30px] rounded-[30px] shadow-cardShadow'>
               {/* icon */}
               <div className='w-[90px] h-[90px] rounded-full bg-primary flex justify-center items-center drop-shadow-2xl'>
                 <span>
