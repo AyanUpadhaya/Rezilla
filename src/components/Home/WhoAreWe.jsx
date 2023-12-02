@@ -55,7 +55,7 @@ const WhoAreWe = () => {
                         </div>
                     </div>
 
-                    <div className='h-full  flex flex-col lg:flex-row justify-start lg:justify-end gap-5 pt-10  '>
+                    <div className='h-full  flex flex-col lg:flex-row justify-start lg:justify-end gap-5 lg:pt-10  '>
                         <div className='lg:w-1/2 h-[16rem] lg:h-[calc(100%-40px)] flex-shrink-0 rounded-[30px] relative mt-10 '>
                             <img src={ rectangleOne} alt="" className='w-full h-full object-cover rounded-[30px]' />
                         </div>
@@ -68,7 +68,7 @@ const WhoAreWe = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='md:hidden flex flex-col gap-[15px] lg:gap-[30px]'>
+                    <div className='lg:hidden flex flex-col gap-[15px] lg:gap-[30px]'>
                             <div className='lg:max-w-[400px] p-[30px] lg:py-[30px] lg:px-8 rounded-[30px] shadow-badgeshadow flex items-center gap-[25px]'>
                                 <div>
                                     <span>

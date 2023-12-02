@@ -122,7 +122,7 @@ const LatestProperties = () => {
                 <div className="flex flex-col gap-5 lg:gap-[43px] lg:flex-row justify-between lg:items-center mb-[50px] ">
                     <div className='w-full max-w-xl flex-shrink-0'>
                         <h4 className='text-primary  text-base lg:text-[19px] font-semilessbold '>CHECKOUT OUR NEW</h4>
-                        <h2 className=' my-[20px] lg:my-[30px] font-semibold text-[27px] lg:text-[39px] text-[#0B090A] leading-[65px]'>
+                        <h2 className=' my-[20px] lg:my-[30px] font-semibold text-[27px] lg:text-[39px] text-[#0B090A] lg:leading-[65px]'>
                             Latest Listed Properties
                         </h2>
                         <p className='text-[13.3px] lg:text-base font-normal text-[#808080] leading-[26px]'>
