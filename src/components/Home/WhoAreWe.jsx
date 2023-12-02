@@ -55,8 +55,8 @@ const WhoAreWe = () => {
                         </div>
                     </div>
 
-                    <div className='h-full  flex flex-col lg:flex-row justify-start lg:justify-end gap-5 lg:pt-10  '>
-                        <div className='lg:w-1/2 h-[16rem] lg:h-[calc(100%-40px)] flex-shrink-0 rounded-[30px] relative mt-10 '>
+                    <div className='h-full  flex flex-col lg:flex-row  gap-5 lg:gap-[30px] justify-start lg:justify-end lg:pt-10  '>
+                        <div className='lg:w-1/2 h-[16rem] lg:h-[calc(100%-40px)] flex-shrink-0 rounded-[30px] relative lg:mt-10 '>
                             <img src={ rectangleOne} alt="" className='w-full h-full object-cover rounded-[30px]' />
                         </div>
                         <div className='flex-shrink-0  space-y-5 '>
