@@ -76,10 +76,10 @@ const Footer = () => {
                 </ul>
 
             </div>
-            <div>
-                <h4 className='text-textNinetine text-[#0B090A] font-semilessbold mb-10 mt-2'>Subscribe to our Newsletter!</h4>
+            <div className='flex flex-col justify-center lg:justify-start items-center'>
+                <h4 className='text-base lg:text-textNinetine text-[#0B090A] font-semilessbold mb-10 mt-2'>Subscribe to our Newsletter!</h4>
                 
-                <div className='flex items-center pl-2 bg-white py-2 pr-2 rounded-xl mb-8'>
+                <div className='flex  items-center pl-2 bg-white py-2 pr-2 rounded-xl mb-8'>
                     <input type="text" className='flex-1 focus:outline-0 border-0' placeholder='Email Address' />
                     <button>
                         <span className='w-[50px] h-[50px] bg-primary rounded-full flex justify-center items-center'>
