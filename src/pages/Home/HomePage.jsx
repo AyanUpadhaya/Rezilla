@@ -24,10 +24,8 @@ const HomePage = () => {
       <OurServices></OurServices>
       <NeighborHoodProperties></NeighborHoodProperties>
       <OurTeam></OurTeam>
-      {/* 
-      
-      
       <LatestBlog></LatestBlog>
+      {/* 
       <Testimonials></Testimonials>
       <RegisterNow></RegisterNow> */}
       {/* <Footer></Footer> */}
