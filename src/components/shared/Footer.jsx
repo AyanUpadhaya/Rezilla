@@ -79,8 +79,8 @@ const Footer = () => {
             <div className='flex flex-col justify-center lg:justify-start items-center lg:items-start px-5'>
                 <h4 className='text-base lg:text-textNinetine text-[#0B090A] font-semilessbold mb-10 mt-2'>Subscribe to our Newsletter!</h4>
                 
-                <div className='flex max-w-full items-center pl-2 bg-white py-4 pr-2 rounded-xl mb-8'>
-                    <input type="text" className='focus:outline-0 focus:border-0' placeholder='Email Address' />
+                <div className='flex w-3/4 items-center pl-2 bg-white py-4 pr-2 rounded-xl mb-8'>
+                    <input type="text" className='focus:outline-0 focus:border-0 w-full' placeholder='Email Address ' />
                     <button>
                         <span className='hidden w-[50px] h-[50px] bg-primary rounded-full lg:flex justify-center items-center'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
