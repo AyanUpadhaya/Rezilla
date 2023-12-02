@@ -19,7 +19,7 @@ const Testimonials = () => {
 
     return (
         <div className='w-full h-full py-[50px] lg:py-[100px] '>
-            <div className='container mx-auto px-[19px] lg:px-[60px] pt-[89px] flex flex-col lg:flex-row gap-6 justify-between '>
+            <div className='container mx-auto px-[19px] lg:px-[60px] pt-[40px] lg:pt-[89px] flex flex-col lg:flex-row gap-6 justify-between '>
                 <div className='w-full max-w-[415px] flex-shrink-0 '>
                     <h4 className='text-primary  text-base lg:text-[19px] font-semilessbold  lg:mb-[30px] '>TESTIMONIALS</h4>
                     <h2 className=' mb-[30px] lg:my-[30px] font-semibold text-[27px] lg:text-[39px] text-[#0B090A] leading-normal'>

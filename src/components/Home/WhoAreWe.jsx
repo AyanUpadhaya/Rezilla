@@ -5,7 +5,7 @@ import { rectangleOne, rectangleThree, rectangleTwo } from '../../assets/getAsse
 const WhoAreWe = () => {
   return (
     <div className='w-full pb-[60px]'>
-            <div className='container mx-auto px-[19px] lg:px-[60px] pt-[89px] '>
+            <div className='container mx-auto px-[19px] lg:px-[60px] pt-[40px] lg:pt-[89px] '>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-[43px] items-center ">
                     <div className='flex-1'>
                         <h4 className='text-primary  text-base lg:text-[19px] font-semilessbold mb-[30px]'>WHO ARE WE</h4>
