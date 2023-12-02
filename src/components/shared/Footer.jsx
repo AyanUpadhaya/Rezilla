@@ -79,7 +79,7 @@ const Footer = () => {
             <div className='flex flex-col justify-center lg:justify-start items-center'>
                 <h4 className='text-base lg:text-textNinetine text-[#0B090A] font-semilessbold mb-10 mt-2'>Subscribe to our Newsletter!</h4>
                 
-                <div className='flex  items-center pl-2 bg-white py-2 pr-2 rounded-xl mb-8'>
+                <div className='flex  items-center pl-2 bg-white py-2 pr-2 rounded-xl mb-8 w-full nx-auto'>
                     <input type="text" className='flex-1 focus:outline-0 border-0' placeholder='Email Address' />
                     <button>
                         <span className='w-[50px] h-[50px] bg-primary rounded-full flex justify-center items-center'>
@@ -90,7 +90,7 @@ const Footer = () => {
                     </button>
                 </div>
 
-                <p className='text-[#0B090A] font-semilessbold text-base mb-[30px] text-center lg:text-start'>Follow Us on</p>
+                <p className='text-[#0B090A] font-semilessbold text-base mb-[30px] '>Follow Us on</p>
                 
                 
                 <ul className='flex flex-col lg:flex-row justify-center lg:justify-between items-center lg:items-start'>
