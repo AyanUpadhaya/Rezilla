@@ -5,7 +5,7 @@ import { rectangleOne, rectangleThree, rectangleTwo } from '../../assets/getAsse
 const WhoAreWe = () => {
   return (
     <div className='w-full pb-[60px]'>
-            <div className='container mx-auto px-[30px] lg:px-[60px] pt-[89px] '>
+            <div className='container mx-auto px-[19px] lg:px-[60px] pt-[89px] '>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-[43px] items-center ">
                     <div className='flex-1'>
                         <h4 className='text-primary  text-base lg:text-[19px] font-semilessbold mb-[30px]'>WHO ARE WE</h4>
@@ -55,21 +55,21 @@ const WhoAreWe = () => {
                         </div>
                     </div>
 
-                    <div className='h-full  flex justify-start lg:justify-end gap-5 pt-10  '>
-                        <div className='w-[10rem] lg:w-1/2 h-[16rem] lg:h-[calc(100%-40px)] flex-shrink-0 rounded-[30px] relative mt-10 '>
+                    <div className='h-full  flex flex-col lg:flex-row justify-start lg:justify-end gap-5 pt-10  '>
+                        <div className='lg:w-1/2 h-[16rem] lg:h-[calc(100%-40px)] flex-shrink-0 rounded-[30px] relative mt-10 '>
                             <img src={ rectangleOne} alt="" className='w-full h-full object-cover rounded-[30px]' />
                         </div>
                         <div className='flex-shrink-0  space-y-5 '>
-                            <div className='h-[8rem] lg:h-[280px] rounded-[30px]'>
+                            <div className=' lg:h-[280px] rounded-[30px]'>
                                 <img src={ rectangleTwo} alt="" className='w-full h-full object-cover rounded-[30px]' />
                             </div>
-                            <div className='h-[6.5rem] lg:h-[180px] rounded-[30px]'>
+                            <div className='lg:h-[180px] rounded-[30px]'>
                                 <img src={rectangleThree} alt="" className='w-full h-full object-cover rounded-[30px]' />
                             </div>
                         </div>
                     </div>
-                    <div className='md:hidden flex flex-col gap-[30px]'>
-                            <div className='max-w-[400px] p-[30px] lg:py-[30px] lg:px-8 rounded-[30px] shadow-badgeshadow flex items-center gap-[25px]'>
+                    <div className='md:hidden flex flex-col gap-[15px] lg:gap-[30px]'>
+                            <div className='lg:max-w-[400px] p-[30px] lg:py-[30px] lg:px-8 rounded-[30px] shadow-badgeshadow flex items-center gap-[25px]'>
                                 <div>
                                     <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
@@ -82,12 +82,12 @@ const WhoAreWe = () => {
                                 </div>
                                 <div>
                                     <h4 className='font-semilessbold text-base lg:text-[19px] text-primary mb-5'>Donec porttitor euismod</h4>
-                                    <p className='text-[13px] lg:text-base font-normal text-[#808080] max-w-[274px] '>
+                                    <p className='text-[13px] lg:text-base font-normal text-[#808080] lg:max-w-[274px] '>
                                         Nullam a lacinia ipsum, nec dignissim purus. Nulla
                                     </p>
                                 </div>
                             </div>
-                            <div className='max-w-[400px] py-[30px] px-8 rounded-[30px] shadow-badgeshadow flex items-center gap-[25px]'>
+                            <div className='lg:max-w-[400px] py-[30px] px-8 rounded-[30px] shadow-badgeshadow flex items-center gap-[25px]'>
                                 <div>
                                     <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="44" height="48" viewBox="0 0 44 48" fill="none">
@@ -99,7 +99,7 @@ const WhoAreWe = () => {
                                 </div>
                                 <div>
                                     <h4 className='font-semilessbold text-base lg:text-[19px] text-primary mb-5'>Donec porttitor euismod</h4>
-                                    <p className='text-[13px] lg:text-base font-normal text-[#808080] max-w-[274px]'>
+                                    <p className='text-[13px] lg:text-base font-normal text-[#808080] lg:max-w-[274px]'>
                                         Nullam a lacinia ipsum, nec dignissim purus. Nulla
                                     </p>
                                 </div>
