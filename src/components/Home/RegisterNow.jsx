@@ -3,7 +3,7 @@ import { agent } from '../../assets/getAssets'
 
 const RegisterNow = () => {
   return (
-    <div className='w-full h-full  py-20 lg:py-[100px] '>
+    <div className='w-full h-full  py-20 lg:py-[50px] lg:py-[100px]  '>
         <div className='  container mx-auto lg:bg-white bg-primary h-full  rounded-[30px] relative flex flex-col lg:flex-row items-center lg:px-5 px-[19px]  lg:after:content-[""] lg:after:absolute lg:after:left-0 lg:after:bottom-0 lg:after:w-full lg:after:h-[85%]  lg:after:z-50 lg:after:bg-primary lg:after:rounded-[30px]'>
             <div className='pt-[100px] lg:pt-0 w-full  flex flex-col-reverse lg:flex-row lg:items-center gap-10 justify-between relative z-[1000] '>
                 <div className='relative'>

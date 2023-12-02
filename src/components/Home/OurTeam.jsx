@@ -7,7 +7,7 @@ import {
 } from "../../assets/getAssets"
 const OurTeam = () => {
     return (
-        <section className='w-full py-[100px] bg-white  '>
+        <section className='w-full py-[50px] lg:py-[100px]  bg-white  '>
           <div className="container mx-auto  flex flex-col justify-center items-center">
             <div className='space-y-[30px] mb-24'>
               <h4 className='text-primary font-semilessbold text-xl text-center'>Introduce yourself to</h4>

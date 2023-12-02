@@ -3,7 +3,7 @@ import { blogOne, blogThree, blogTwo } from '../../assets/getAssets'
 
 const LatestBlog = () => {
     return (
-        <section className='w-full px-[30px] py-[100px] bg-[#2C097C] text-white  '>
+        <section className='w-full px-[30px] py-[50px] lg:py-[100px]  bg-[#2C097C] text-white  '>
           <div className="container mx-auto  flex flex-col justify-center items-center">
             <div className='space-y-[30px] mb-24'>
               <h4 className='text-white font-semilessbold text-base lg:text-xl text-center'>WHAT’S TRENDING</h4>

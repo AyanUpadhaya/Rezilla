@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
         <div className='w-full  bg-[#D4D4D4]'>
-        <div className=" py-[100px] px-[19px] container mx-auto flex flex-col lg:flex-row justify-center lg:justify-between items-center lg:items-start">
+        <div className=" py-[50px] lg:py-[100px]  px-[19px] container mx-auto flex flex-col lg:flex-row justify-center lg:justify-between items-center lg:items-start">
 
             <div className='flex flex-col justify-center lg:justify-between items-center lg:items-start'>
                 <div className=' flex gap-2 items-center mb-8'>

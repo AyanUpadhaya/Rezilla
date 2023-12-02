@@ -2,7 +2,7 @@ import React from 'react'
 
 const OurServices = () => {
   return (
-    <section className='w-full py-[100px] bg-[#D4D4D4]  '>
+    <section className='w-full py-[50px] lg:py-[100px]  bg-[#D4D4D4]  '>
       <div className="container mx-auto px-[30px] flex flex-col justify-center items-center">
         <div>
           <h4 className='text-textdark font-semilessbold text-xl text-center'>OUR SERVICES</h4>

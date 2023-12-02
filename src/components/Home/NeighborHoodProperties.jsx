@@ -7,7 +7,7 @@ import {propertyOne,
 const NeighborHoodProperties = () => {
     
     return (
-        <div className='w-full py-[100px]'>
+        <div className='w-full py-[50px] lg:py-[100px] '>
             <div className='container mx-auto px-[19px] lg:px-[30px]  '>
                 {/* top */}
                 <div className='w-full '>
