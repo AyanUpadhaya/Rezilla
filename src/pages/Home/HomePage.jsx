@@ -18,8 +18,8 @@ const HomePage = () => {
     <div>
       <Header></Header>
       <Badges></Badges>
-      {/* <Sponsors></Sponsors> */}
-      {/* <WhoAreWe></WhoAreWe> */}
+      <Sponsors></Sponsors> 
+      <WhoAreWe></WhoAreWe>
       {/* <LatestProperties></LatestProperties>
       <OurServices></OurServices>
       <NeighborHoodProperties></NeighborHoodProperties>
