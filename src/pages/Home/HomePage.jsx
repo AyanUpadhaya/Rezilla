@@ -19,14 +19,14 @@ const HomePage = () => {
       <Header></Header>
       <Badges></Badges>
       {/* <Sponsors></Sponsors> */}
-      <WhoAreWe></WhoAreWe>
-      <LatestProperties></LatestProperties>
+      {/* <WhoAreWe></WhoAreWe> */}
+      {/* <LatestProperties></LatestProperties>
       <OurServices></OurServices>
       <NeighborHoodProperties></NeighborHoodProperties>
       <OurTeam></OurTeam>
       <LatestBlog></LatestBlog>
       <Testimonials></Testimonials>
-      <RegisterNow></RegisterNow>
+      <RegisterNow></RegisterNow> */}
       {/* <Footer></Footer> */}
       {/* <ScrollToTopButton></ScrollToTopButton> */}
     </div>
