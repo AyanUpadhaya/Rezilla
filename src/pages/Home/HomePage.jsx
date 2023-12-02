@@ -20,8 +20,10 @@ const HomePage = () => {
       <Badges></Badges>
       <Sponsors></Sponsors> 
       <WhoAreWe></WhoAreWe>
-      {/* <LatestProperties></LatestProperties>
+      <LatestProperties></LatestProperties>
       <OurServices></OurServices>
+      {/* 
+      
       <NeighborHoodProperties></NeighborHoodProperties>
       <OurTeam></OurTeam>
       <LatestBlog></LatestBlog>
