@@ -8,7 +8,7 @@ const NeighborHoodProperties = () => {
     
     return (
         <div className='w-full py-[100px]'>
-            <div className='container mx-auto px-[30px]  '>
+            <div className='container mx-auto px-[19px] lg:px-[30px]  '>
                 {/* top */}
                 <div className='w-full '>
                     <h4 className='text-primary  text-base lg:text-[19px] font-semilessbold '>AREAS ACROSS THE TOWN</h4>
