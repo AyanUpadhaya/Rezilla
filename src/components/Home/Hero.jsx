@@ -46,7 +46,7 @@ const Hero = () => {
                             </div>
                         </div>
                         {/* middle */}
-                        <div className='px-10 pt-[50px] pb-[60px] h-full '>
+                        <div className='px-[19px] lg:px-10 pt-[50px] pb-[60px] h-full '>
                             <div className='w-full  min-h-[59px] rounded-[20px] border border-[#D4D4D4]  bg-[#D4D4D433] py-6 px-5 mb-[30px]'>
                                 <input type="text" className='bg-transparent w-full border-0 outline-none text-base font-normal text-[#AAA]' placeholder='New York, San Francisco, etc' />
 
